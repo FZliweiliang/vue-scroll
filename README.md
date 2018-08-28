@@ -78,19 +78,19 @@ new Vue({
 ## Options
 
 ### Props
-| Props       | Type          | Default  | Description  |
-| ----------- |:--------------| ---------|--------------|
-| page   | Object        | auto | counter:当前页  pageStart:开始页数  pageEnd:结束页数  total:总页数 |
-| onRefresh  | Function        | true   | 刷新回调 |
-| onPull  | Function        | true   | 加载回调 |
-| getScrollTop  | Function        | auto   | 获取滚动条位置 |
-| scrollState  | Boolean        | true   | 获取滚动条位置 |
+| Props        | Type     | Default | Description                                                        |
+| ------------ | :------- | ------- | ------------------------------------------------------------------ |
+| page         | Object   | auto    | counter:当前页  pageStart:开始页数  pageEnd:结束页数  total:总页数 |
+| onRefresh    | Function | true    | 刷新回调                                                           |
+| onPull       | Function | true    | 加载回调                                                           |
+| getScrollTop | Function | auto    | 获取滚动条位置                                                     |
+| scrollState  | Boolean  | true    | 获取滚动条位置                                                     |
 
 ### Function
-| Name        | Type           | Description                |
-| ----------- |:---------------| ---------------------------|
-| setState    | Number  | setState(状态) 刷新中：1 松开刷新：2 刷新完成：3加载中：4 加载完成：5 下拉刷新：6 没有更多：7 |
-| setScrollTop    | Number  | setScrollTop(滚动条位置) |
+| Name         | Type   | Description                                                                                   |
+| ------------ | :----- | --------------------------------------------------------------------------------------------- |
+| setState     | Number | setState(状态) 刷新中：1 松开刷新：2 刷新完成：3加载中：4 加载完成：5 下拉刷新：6 没有更多：7 |
+| setScrollTop | Number | setScrollTop(滚动条位置)                                                                      |
 
 ### Screenshot
 <img src="https://github.com/474782977/vue-slider/blob/master/screenshot/1.jpg" width="320px" style="display:inline;">
