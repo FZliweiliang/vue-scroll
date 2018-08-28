@@ -93,5 +93,5 @@ new Vue({
 | setScrollTop | Number | setScrollTop(滚动条位置)                                                                      |
 
 ### Screenshot
-<img src="https://github.com/474782977/vue-slider/blob/master/screenshot/1.jpg" width="320px" style="display:inline;">
+<img src="https://github.com/474782977/vue-scroll/blob/master/screenshot/1.gif" width="320px" style="display:inline;">
 
