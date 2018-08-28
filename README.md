@@ -89,13 +89,7 @@ new Vue({
 ### Function
 | Name        | Type           | Description                |
 | ----------- |:---------------| ---------------------------|
-| setState    | Number  | setState(状态) * 刷新中：1
-			 * 松开刷新：2
-			 * 刷新完成：3
-			 * 加载中：4
-			 * 加载完成：5
-			 * 下拉刷新：6
-			 * 没有更多：7 |
+| setState    | Number  | setState(状态) 刷新中：1 松开刷新：2 刷新完成：3加载中：4 加载完成：5 下拉刷新：6 没有更多：7 |
 | setScrollTop    | Number  | setScrollTop(滚动条位置) |
 
 ### Screenshot
